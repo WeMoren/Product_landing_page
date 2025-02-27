@@ -795,7 +795,7 @@
 
 
 
-@media only screen and (max-width:850px){
+@media(max-width:850px){
   .new-arrival-text{
     font-size:14px;
   }
@@ -939,10 +939,12 @@
 
   }
 
-  @media(max-width:450px){
+  @media(max-width:640px){
     .copy, .info{
       font-size: 10px;
     }
+
+
 
     .contact-logo{
       font-size: 12px;
@@ -975,5 +977,10 @@
 
   .link-header{
     font-size: 28px;
+  }
+
+  body{
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
