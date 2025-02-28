@@ -985,3 +985,11 @@
     overflow-x: hidden;
   }
 }
+
+@media(max-width: 360px){
+  body{
+    margin-right: 25px;
+    margin-left: 25px;
+    overflow-x: hidden;
+  }
+}
